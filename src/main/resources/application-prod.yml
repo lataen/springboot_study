@@ -1,0 +1,7 @@
+server:
+  port: 8081
+  servlet.context-path: /idc
+limit:
+  min: 1
+  max: 1000
+  desc: 最少要发${limit.min},最多${limit.max}
